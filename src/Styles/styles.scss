@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #EDEDED;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+    &__logo{
+        width: 80px;
+        height: 80px;
+        padding: 0;
+        height: auto;
+    }
+    &__nav{
+        display: grid;
+        grid-auto-flow: column;
+        grid-gap: 20px;
+    }
+}
